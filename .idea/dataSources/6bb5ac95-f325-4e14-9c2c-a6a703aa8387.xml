@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.9">
+    <root id="1">
+      <ServerVersion>11.2.0.2</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="AIR">
+      <ObjectId>49</ObjectId>
+      <IntrospectionTimestamp>2018-07-04.17:46:17</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-06-15.17:24:57</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-04.17:45:06</ModifiedTimestamp>
+      <CommentsHash>488826317148801</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="HWQ">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="17" parent="2" name="BOUNCERECORDINSERT">
+      <ObjectId>20544</ObjectId>
+      <CreatedTimestamp>2018-07-02.21:43:14</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-02.21:43:14</ModifiedTimestamp>
+      <SequenceIdentity>1..1000</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <Cycled>1</Cycled>
+    </sequence>
+    <sequence id="18" parent="2" name="DISCOUNTINSERT">
+      <ObjectId>20642</ObjectId>
+      <CreatedTimestamp>2018-07-04.07:49:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-04.07:49:54</ModifiedTimestamp>
+      <SequenceIdentity>1..100</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <Cycled>1</Cycled>
+    </sequence>
+    <sequence id="19" parent="2" name="FLIGHTINSERT">
+      <ObjectId>20635</ObjectId>
+      <CreatedTimestamp>2018-07-03.19:00:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.19:00:07</ModifiedTimestamp>
+      <SequenceIdentity>1..1000</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <Cycled>1</Cycled>
+    </sequence>
+    <sequence id="20" parent="2" name="NETDEALERINSERT">
+      <ObjectId>20632</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:04:10</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:04:10</ModifiedTimestamp>
+      <SequenceIdentity>1..2000</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <Cycled>1</Cycled>
+    </sequence>
+    <sequence id="21" parent="2" name="SALERECORDINSERT">
+      <ObjectId>20542</ObjectId>
+      <CreatedTimestamp>2018-07-02.19:19:46</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-02.19:19:46</ModifiedTimestamp>
+      <SequenceIdentity>1..1000</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <Cycled>1</Cycled>
+    </sequence>
+    <sequence id="22" parent="2" name="SYSTEMUSERINSERT">
+      <ObjectId>20629</ObjectId>
+      <CreatedTimestamp>2018-07-03.07:59:56</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.07:59:56</ModifiedTimestamp>
+      <SequenceIdentity>1..100</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <Cycled>1</Cycled>
+    </sequence>
+    <table id="23" parent="2" name="BOUNCERECORD">
+      <ObjectId>20335</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:21:18</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-02.22:16:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="24" parent="2" name="DIRCTORY">
+      <ObjectId>20325</ObjectId>
+      <CreatedTimestamp>2018-06-15.17:24:57</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.17:24:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="25" parent="2" name="DISCOUNT">
+      <ObjectId>20343</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:53:24</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-04.17:37:52</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="26" parent="2" name="FLIGHT">
+      <ObjectId>20339</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:36:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.19:30:41</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="27" parent="2" name="FLIGHTSTOP">
+      <ObjectId>20341</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:48:16</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:48:16</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="28" parent="2" name="NETDEALER">
+      <ObjectId>20329</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:00:24</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:39:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="29" parent="2" name="OILTAXSET">
+      <ObjectId>20345</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:56:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:56:42</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="30" parent="2" name="SALELOG">
+      <ObjectId>20331</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:10:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:17:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="31" parent="2" name="SALERECORD">
+      <ObjectId>20333</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:16:36</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-02.21:02:44</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="32" parent="2" name="SYSTEMUSER">
+      <ObjectId>20327</ObjectId>
+      <CreatedTimestamp>2018-06-15.17:28:43</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-04.17:45:06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="33" parent="2" name="TICKETSTORE">
+      <ObjectId>20337</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:32:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:37:37</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <routine id="34" parent="2" name="FLIGHTGETPAGESPROC">
+      <ObjectId>20353</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <DependsOnIds>4852,20339</DependsOnIds>
+      <CreatedTimestamp>2018-06-28.18:15:13</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-28.18:29:33</ModifiedTimestamp>
+    </routine>
+    <routine id="35" parent="2" name="FLIGHTPAGESPROC">
+      <ObjectId>20356</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <DependsOnIds>20339,4852</DependsOnIds>
+      <CreatedTimestamp>2018-06-28.22:45:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-02.07:33:32</ModifiedTimestamp>
+    </routine>
+    <routine id="36" parent="2" name="FLIGHTPAGESPROC2">
+      <ObjectId>20442</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <DependsOnIds>20339,4852</DependsOnIds>
+      <CreatedTimestamp>2018-06-29.18:02:49</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-29.18:02:49</ModifiedTimestamp>
+    </routine>
+    <routine id="37" parent="2" name="NETDEALERGETPAGESPROC">
+      <ObjectId>20440</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <DependsOnIds>4852,20329</DependsOnIds>
+      <CreatedTimestamp>2018-06-29.16:42:37</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-29.16:42:37</ModifiedTimestamp>
+    </routine>
+    <routine id="38" parent="2" name="NETDEALERPAGESPROC">
+      <ObjectId>20441</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <DependsOnIds>20329,4852</DependsOnIds>
+      <CreatedTimestamp>2018-06-29.16:47:21</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-02.08:11:59</ModifiedTimestamp>
+    </routine>
+    <routine id="39" parent="2" name="SALERECORDGETPAGEPROC">
+      <ObjectId>20355</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <DependsOnIds>4852,20333</DependsOnIds>
+      <CreatedTimestamp>2018-06-28.22:39:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-28.22:39:07</ModifiedTimestamp>
+    </routine>
+    <routine id="40" parent="2" name="SALERECORDPAGEPROC2">
+      <ObjectId>20443</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <DependsOnIds>20329,4852,20333</DependsOnIds>
+      <CreatedTimestamp>2018-06-29.18:56:28</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.23:34:12</ModifiedTimestamp>
+    </routine>
+    <routine id="41" parent="2" name="SALERECORDPAGEPROC3">
+      <ObjectId>20444</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <DependsOnIds>4852,20339,20333</DependsOnIds>
+      <CreatedTimestamp>2018-06-29.19:03:32</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-04.00:39:40</ModifiedTimestamp>
+    </routine>
+    <routine id="42" parent="2" name="SALERECORDPAGESPROC">
+      <ObjectId>20357</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <DependsOnIds>4852,20333,20329,20339</DependsOnIds>
+      <CreatedTimestamp>2018-06-28.23:06:43</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-04.00:40:47</ModifiedTimestamp>
+    </routine>
+    <routine id="43" parent="2" name="SYSTEMUSERGETPAGESPROC">
+      <ObjectId>20358</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <DependsOnIds>4852,20327</DependsOnIds>
+      <CreatedTimestamp>2018-06-29.01:07:14</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-29.01:07:14</ModifiedTimestamp>
+    </routine>
+    <routine id="44" parent="2" name="SYSTEMUSERPAGESPROC">
+      <ObjectId>20359</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <Invalid>1</Invalid>
+      <DependsOnIds>4852,20327</DependsOnIds>
+      <CreatedTimestamp>2018-06-29.01:12:27</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-02.08:24:34</ModifiedTimestamp>
+    </routine>
+    <column id="45" parent="23" name="BOUNCEID">
+      <Position>1</Position>
+      <Comment>退票记录ID 主键</Comment>
+      <DataType>NUMBER(12 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="23" name="SALEID">
+      <Position>2</Position>
+      <Comment>销售记录ID  外键：关联销售记录表</Comment>
+      <DataType>NUMBER(12 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="23" name="NETID">
+      <Position>3</Position>
+      <Comment>网点ID  外键：关联销售网点表</Comment>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+    </column>
+    <column id="48" parent="23" name="BOUNCEDATE">
+      <Position>4</Position>
+      <Comment>退票时间</Comment>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="49" parent="23" name="CUSTNAME">
+      <Position>5</Position>
+      <Comment>旅客姓名</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="50" parent="23" name="CUSTTEL">
+      <Position>6</Position>
+      <Comment>旅客电话</Comment>
+      <DataType>VARCHAR2(12 byte)|0s</DataType>
+    </column>
+    <column id="51" parent="23" name="REASON">
+      <Position>7</Position>
+      <Comment>退票原因</Comment>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+    </column>
+    <column id="52" parent="23" name="MONEY">
+      <Position>8</Position>
+      <Comment>退票金额</Comment>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <index id="53" parent="23" name="BOUNCERECORD_PK">
+      <ObjectId>20336</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:21:18</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:21:18</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>BOUNCEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="23" name="BOUNCERECORD_PK">
+      <ModifiedTimestamp>2018-06-15.18:21:18</ModifiedTimestamp>
+      <ColNames>BOUNCEID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BOUNCERECORD_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="55" parent="23" name="BOUNCERECORD_FK1">
+      <ModifiedTimestamp>2018-06-15.18:21:18</ModifiedTimestamp>
+      <ColNames>SALEID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>SALERECORD</RefTableName>
+      <RefKeyName>TABLE1_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="56" parent="23" name="BOUNCERECORD_FK2">
+      <ModifiedTimestamp>2018-06-15.18:21:18</ModifiedTimestamp>
+      <ColNames>NETID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>NETDEALER</RefTableName>
+      <RefKeyName>NETDEALER_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="57" parent="23" name="BOUNCERECORDTRIGGER1">
+      <ObjectId>20545</ObjectId>
+      <DependsOnIds>117,20544</DependsOnIds>
+      <CreatedTimestamp>2018-07-02.21:44:30</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-02.22:16:57</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="58" parent="24" name="DICID">
+      <Position>1</Position>
+      <Comment>数据字典ID</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="24" name="DICNAME">
+      <Position>2</Position>
+      <Comment>数据字典名称</Comment>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="24" name="FATHERID">
+      <Position>3</Position>
+      <Comment>父类ID</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="61" parent="24" name="DIRCTORY_PK">
+      <ObjectId>20326</ObjectId>
+      <CreatedTimestamp>2018-06-15.17:24:57</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.17:24:57</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>DICID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="62" parent="24" name="DIRCTORY_PK">
+      <ModifiedTimestamp>2018-06-15.17:24:57</ModifiedTimestamp>
+      <ColNames>DICID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DIRCTORY_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="25" name="DISCOUNTID">
+      <Position>1</Position>
+      <Comment> 打折ID  主键</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="25" name="FLIGHTID">
+      <Position>2</Position>
+      <Comment>航班ID  外键：关联航班信息表</Comment>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="25" name="DISCOUNT">
+      <Position>3</Position>
+      <Comment>(2,1)  折扣率 </Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="66" parent="25" name="DISCOUNTDATE">
+      <Position>4</Position>
+      <Comment>日期</Comment>
+      <DataType>DATE|0s</DataType>
+      <DefaultExpression>sysdate </DefaultExpression>
+    </column>
+    <index id="67" parent="25" name="DISCOUNT_PK">
+      <ObjectId>20344</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:53:24</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:53:24</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>DISCOUNTID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="68" parent="25" name="FLIGHT_UNIPUE">
+      <ObjectId>20644</ObjectId>
+      <CreatedTimestamp>2018-07-04.17:37:52</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-04.17:37:52</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>FLIGHTID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="69" parent="25" name="DISCOUNT_PK">
+      <ModifiedTimestamp>2018-06-15.18:53:24</ModifiedTimestamp>
+      <ColNames>DISCOUNTID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DISCOUNT_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="70" parent="25" name="DISCOUNT_FK1">
+      <ModifiedTimestamp>2018-06-15.18:53:24</ModifiedTimestamp>
+      <ColNames>FLIGHTID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>FLIGHT</RefTableName>
+      <RefKeyName>FLIGHT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="71" parent="25" name="DISCOUNTTRIGGER1">
+      <ObjectId>20643</ObjectId>
+      <DependsOnIds>117,20642</DependsOnIds>
+      <CreatedTimestamp>2018-07-04.07:50:48</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-04.07:50:48</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="72" parent="26" name="FLIGHTID">
+      <Position>1</Position>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="26" name="USERID">
+      <Position>2</Position>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="26" name="DICID">
+      <Position>3</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="26" name="FLIGHTNO">
+      <Position>4</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="76" parent="26" name="STARTAIRPORT">
+      <Position>5</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="77" parent="26" name="ENDAIRPORT">
+      <Position>6</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="78" parent="26" name="TYPE">
+      <Position>7</Position>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+    </column>
+    <column id="79" parent="26" name="PLANSTARTTIME">
+      <Position>8</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="80" parent="26" name="PLANENDTIME">
+      <Position>9</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="81" parent="26" name="AIRRANGE">
+      <Position>10</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="82" parent="26" name="PRICE">
+      <Position>11</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="83" parent="26" name="FROMCITY">
+      <Position>12</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="84" parent="26" name="TOCITY">
+      <Position>13</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="85" parent="26" name="FLIGHTTYPE">
+      <Position>14</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="86" parent="26" name="TICKETNUM">
+      <Position>15</Position>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+    </column>
+    <column id="87" parent="26" name="ISSTOP">
+      <Position>16</Position>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+    </column>
+    <index id="88" parent="26" name="FLIGHT_PK">
+      <ObjectId>20340</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:36:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:36:53</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>FLIGHTID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="89" parent="26" name="FLIGHT_NO">
+      <ObjectId>20637</ObjectId>
+      <CreatedTimestamp>2018-07-03.19:30:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.19:30:41</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>FLIGHTNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="90" parent="26" name="FLIGHT_PK">
+      <ModifiedTimestamp>2018-06-15.18:36:53</ModifiedTimestamp>
+      <ColNames>FLIGHTID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>FLIGHT_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="91" parent="26" name="FLIGHT_FK1">
+      <ModifiedTimestamp>2018-06-15.18:36:53</ModifiedTimestamp>
+      <ColNames>USERID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>SYSTEMUSER</RefTableName>
+      <RefKeyName>SYSTEMUSER_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="92" parent="26" name="FLIGHT_FK2">
+      <ModifiedTimestamp>2018-06-15.18:36:53</ModifiedTimestamp>
+      <ColNames>DICID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>DIRCTORY</RefTableName>
+      <RefKeyName>DIRCTORY_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="93" parent="26" name="FLIGHTTRIGGER1">
+      <ObjectId>20636</ObjectId>
+      <DependsOnIds>20635,117</DependsOnIds>
+      <CreatedTimestamp>2018-07-03.19:00:49</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.19:00:49</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="94" parent="27" name="FLIGHTID">
+      <Position>1</Position>
+      <Comment>航班ID  主键，外键：关联航信息表</Comment>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="27" name="STOPCITY">
+      <Position>2</Position>
+      <Comment>经停城市</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="96" parent="27" name="STOPAIRPORT">
+      <Position>3</Position>
+      <Comment>经停机场</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="97" parent="27" name="ARRIVEDTIME">
+      <Position>4</Position>
+      <Comment>到港时间</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="98" parent="27" name="AGAINTIME">
+      <Position>5</Position>
+      <Comment>再次起飞时间</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="99" parent="27" name="STOPPRICE">
+      <Position>6</Position>
+      <Comment>经停价格</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="100" parent="27" name="FLIGHTPRICE">
+      <Position>7</Position>
+      <Comment>起飞价格</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="101" parent="27" name="AIRRANGE">
+      <Position>8</Position>
+      <Comment>里程数</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <index id="102" parent="27" name="FLIGHTSTOP_PK">
+      <ObjectId>20342</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:48:16</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:48:16</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>FLIGHTID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="103" parent="27" name="FLIGHTSTOP_PK">
+      <ModifiedTimestamp>2018-06-15.18:48:16</ModifiedTimestamp>
+      <ColNames>FLIGHTID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>FLIGHTSTOP_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="104" parent="27" name="FLIGHTSTOP_FK1">
+      <ModifiedTimestamp>2018-06-15.18:48:16</ModifiedTimestamp>
+      <ColNames>FLIGHTID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>FLIGHT</RefTableName>
+      <RefKeyName>FLIGHT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="105" parent="28" name="NETID">
+      <Position>1</Position>
+      <Comment>网点ID</Comment>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="28" name="USERID">
+      <Position>2</Position>
+      <Comment>管理员ID</Comment>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="28" name="NETCODE">
+      <Position>3</Position>
+      <Comment>网点编号</Comment>
+      <DataType>VARCHAR2(8 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="28" name="NETNAME">
+      <Position>4</Position>
+      <Comment>网点名称</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="28" name="PASSWORD">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="28" name="DIRECTOR">
+      <Position>6</Position>
+      <Comment>负责人</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="28" name="TELPHONE">
+      <Position>7</Position>
+      <Comment>电话</Comment>
+      <DataType>VARCHAR2(12 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="28" name="STATE">
+      <Position>8</Position>
+      <Comment>状态 0：正常 1：冻结</Comment>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+    </column>
+    <index id="113" parent="28" name="NETDEALER_PK">
+      <ObjectId>20330</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:00:24</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:00:24</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>NETID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="114" parent="28" name="NETDEALER_UNIQUE">
+      <ObjectId>20634</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:39:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:39:23</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>NETCODE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="115" parent="28" name="NETDEALER_PK">
+      <ModifiedTimestamp>2018-06-15.18:00:24</ModifiedTimestamp>
+      <ColNames>NETID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>NETDEALER_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="116" parent="28" name="NETDEALER_FK1">
+      <ModifiedTimestamp>2018-06-15.18:00:25</ModifiedTimestamp>
+      <ColNames>USERID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>SYSTEMUSER</RefTableName>
+      <RefKeyName>SYSTEMUSER_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="117" parent="28" name="NETDEALERTRIGGER1">
+      <ObjectId>20633</ObjectId>
+      <DependsOnIds>117,20632</DependsOnIds>
+      <CreatedTimestamp>2018-07-03.17:05:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:05:44</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="118" parent="29" name="BREAKPOINT">
+      <Position>1</Position>
+      <Comment>里程分割点</Comment>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <column id="119" parent="29" name="LOWFEE">
+      <Position>2</Position>
+      <Comment>低点税费</Comment>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <column id="120" parent="29" name="HIGHFEE">
+      <Position>3</Position>
+      <Comment>高点税费</Comment>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <column id="121" parent="30" name="LOGID">
+      <Position>1</Position>
+      <Comment>日志ID 主键</Comment>
+      <DataType>NUMBER(12 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="122" parent="30" name="SALEID">
+      <Position>2</Position>
+      <Comment>销售记录ID  外键：管理销售记录</Comment>
+      <DataType>NUMBER(12 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="30" name="NETID">
+      <Position>3</Position>
+      <Comment>外键：管理销售网点表</Comment>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="124" parent="30" name="OPERATORDATE">
+      <Position>4</Position>
+      <Comment>操作时间 默认值 sysdate 即</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <column id="125" parent="30" name="OPERATORTYPE">
+      <Position>5</Position>
+      <Comment>操作类型  1：售票  2：转签</Comment>
+      <DataType>VARCHAR2(1 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="126" parent="30" name="SALELOG_PK">
+      <ObjectId>20332</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:10:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:10:07</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>LOGID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="127" parent="30" name="SALELOG_PK">
+      <ModifiedTimestamp>2018-06-15.18:10:07</ModifiedTimestamp>
+      <ColNames>LOGID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SALELOG_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="128" parent="30" name="SALELOG_FK2">
+      <ModifiedTimestamp>2018-06-15.18:17:20</ModifiedTimestamp>
+      <ColNames>SALEID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>SALERECORD</RefTableName>
+      <RefKeyName>TABLE1_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="129" parent="30" name="SALELOG_FK1">
+      <ModifiedTimestamp>2018-06-15.18:10:07</ModifiedTimestamp>
+      <ColNames>NETID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>NETDEALER</RefTableName>
+      <RefKeyName>NETDEALER_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="130" parent="31" name="SALEID">
+      <Position>1</Position>
+      <Comment>主键  销售记录ID</Comment>
+      <DataType>NUMBER(12 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="131" parent="31" name="NETID">
+      <Position>2</Position>
+      <Comment>外键：关联销售网点表</Comment>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+    </column>
+    <column id="132" parent="31" name="FLIGHTID">
+      <Position>3</Position>
+      <Comment>航班ID  外键：关联航班表</Comment>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+    </column>
+    <column id="133" parent="31" name="TICKETMONEY">
+      <Position>4</Position>
+      <Comment>票面金额</Comment>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+    </column>
+    <column id="134" parent="31" name="SALETIME">
+      <Position>5</Position>
+      <Comment>销售时间  默认：sysdate</Comment>
+      <DataType>DATE|0s</DataType>
+      <DefaultExpression>sysdate 
+</DefaultExpression>
+    </column>
+    <column id="135" parent="31" name="AIRPORTTAX">
+      <Position>6</Position>
+      <Comment>建设费</Comment>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+    </column>
+    <column id="136" parent="31" name="OILTAX">
+      <Position>7</Position>
+      <Comment>燃油税</Comment>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+    </column>
+    <column id="137" parent="31" name="CUSTNAME">
+      <Position>8</Position>
+      <Comment>旅客姓名</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="138" parent="31" name="CUSTTEL">
+      <Position>9</Position>
+      <Comment>旅客电话</Comment>
+      <DataType>VARCHAR2(12 byte)|0s</DataType>
+    </column>
+    <column id="139" parent="31" name="IDCARD">
+      <Position>10</Position>
+      <Comment>旅客身份证</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="140" parent="31" name="STARTAIRPORT">
+      <Position>11</Position>
+      <Comment>起飞机场</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="141" parent="31" name="ENDAIRPORT">
+      <Position>12</Position>
+      <Comment>到达机场</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="142" parent="31" name="ARRTIME">
+      <Position>13</Position>
+      <Comment>到达时间</Comment>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="143" parent="31" name="STARTTIME">
+      <Position>14</Position>
+      <Comment>起飞时间</Comment>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="144" parent="31" name="SALESTATE">
+      <Position>15</Position>
+      <Comment>销售状态  0：正常销售，1:退票，2：转签</Comment>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <index id="145" parent="31" name="TABLE1_PK">
+      <ObjectId>20334</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:16:36</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:16:36</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>SALEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="146" parent="31" name="TABLE1_PK">
+      <ModifiedTimestamp>2018-06-15.18:16:36</ModifiedTimestamp>
+      <ColNames>SALEID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TABLE1_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="147" parent="31" name="TABLE1_FK1">
+      <ModifiedTimestamp>2018-07-02.21:02:44</ModifiedTimestamp>
+      <ColNames>NETID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>NETDEALER</RefTableName>
+      <RefKeyName>NETDEALER_PK</RefKeyName>
+      <OnDelete>set-null</OnDelete>
+    </foreign-key>
+    <foreign-key id="148" parent="31" name="SALERECORD_FK1">
+      <ModifiedTimestamp>2018-07-02.21:02:44</ModifiedTimestamp>
+      <ColNames>FLIGHTID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>FLIGHT</RefTableName>
+      <RefKeyName>FLIGHT_PK</RefKeyName>
+      <OnDelete>set-null</OnDelete>
+    </foreign-key>
+    <trigger id="149" parent="31" name="SALERECORDTRIGGER1">
+      <ObjectId>20543</ObjectId>
+      <DependsOnIds>20542,117</DependsOnIds>
+      <CreatedTimestamp>2018-07-02.19:22:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-02.19:22:42</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="150" parent="32" name="USERID">
+      <Position>1</Position>
+      <Comment>管理员ID</Comment>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="151" parent="32" name="USERNAME">
+      <Position>2</Position>
+      <Comment>账号</Comment>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="32" name="PASSWORD">
+      <Position>3</Position>
+      <Comment>密码</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="153" parent="32" name="EMAIL">
+      <Position>4</Position>
+      <Comment>电邮</Comment>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="154" parent="32" name="STATE">
+      <Position>5</Position>
+      <Comment>状态   0：正常   1：冻结</Comment>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+    </column>
+    <column id="155" parent="32" name="TELEPHONE">
+      <Position>6</Position>
+      <Comment>电话</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <index id="156" parent="32" name="SYSTEMUSER_PK">
+      <ObjectId>20328</ObjectId>
+      <CreatedTimestamp>2018-06-15.17:28:43</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.17:28:43</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>USERID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="157" parent="32" name="SYSTEMUSER_UNIQUE">
+      <ObjectId>20631</ObjectId>
+      <CreatedTimestamp>2018-07-03.16:52:49</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.16:52:49</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>USERNAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="158" parent="32" name="SYSTEMUSER_PK">
+      <ModifiedTimestamp>2018-06-15.17:28:43</ModifiedTimestamp>
+      <ColNames>USERID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYSTEMUSER_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="159" parent="32" name="SYSTEMUSERTRIGGER1">
+      <ObjectId>20630</ObjectId>
+      <DependsOnIds>117,20629</DependsOnIds>
+      <CreatedTimestamp>2018-07-03.08:01:00</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.08:01:00</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="160" parent="33" name="STOREID">
+      <Position>1</Position>
+      <Comment>仓库ID 主键</Comment>
+      <DataType>NUMBER(12 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="161" parent="33" name="FLIGHTID">
+      <Position>2</Position>
+      <Comment>外键：关联航班信息表</Comment>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="162" parent="33" name="TICKETDATE">
+      <Position>3</Position>
+      <Comment>票面日期</Comment>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="163" parent="33" name="FROMCITY">
+      <Position>4</Position>
+      <Comment>起飞城市</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="164" parent="33" name="TOCITY">
+      <Position>5</Position>
+      <Comment>到达城市</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="165" parent="33" name="STORENUM">
+      <Position>6</Position>
+      <Comment>剩余座位数</Comment>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <column id="166" parent="33" name="CITYSEQ">
+      <Position>7</Position>
+      <Comment>航班序号</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+    </column>
+    <index id="167" parent="33" name="TICKETSTORE_PK">
+      <ObjectId>20338</ObjectId>
+      <CreatedTimestamp>2018-06-15.18:32:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-15.18:32:54</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>STOREID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="168" parent="33" name="TICKETSTORE_PK">
+      <ModifiedTimestamp>2018-06-15.18:32:54</ModifiedTimestamp>
+      <ColNames>STOREID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TICKETSTORE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="169" parent="33" name="TICKETSTORE_FK1">
+      <ModifiedTimestamp>2018-06-15.18:37:37</ModifiedTimestamp>
+      <ColNames>FLIGHTID</ColNames>
+      <RefSchemaName>AIR</RefSchemaName>
+      <RefTableName>FLIGHT</RefTableName>
+      <RefKeyName>FLIGHT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <argument id="170" parent="34" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="171" parent="34" name="PAGES">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="172" parent="35" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="173" parent="35" name="PAGENUMBER">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="174" parent="35" name="FCITY">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="175" parent="35" name="TCITY">
+      <Position>4</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="176" parent="35" name="PLANTIME">
+      <Position>5</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="177" parent="35" name="CUR">
+      <Position>6</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="178" parent="36" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="179" parent="36" name="PAGENUMBER">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="180" parent="36" name="FCITY">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="181" parent="36" name="TCITY">
+      <Position>4</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="182" parent="36" name="IFLIGHTNO">
+      <Position>5</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="183" parent="36" name="CUR">
+      <Position>6</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="184" parent="37" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="185" parent="37" name="PAGES">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="186" parent="38" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="187" parent="38" name="PAGENUMBER">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="188" parent="38" name="INETCODE">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="189" parent="38" name="INETNAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="190" parent="38" name="CUR">
+      <Position>5</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="191" parent="39" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="192" parent="39" name="PAGES">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="193" parent="40" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="194" parent="40" name="PAGENUMBER">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="195" parent="40" name="IMONTH">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="196" parent="40" name="INETCODE">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="197" parent="40" name="CUR">
+      <Position>5</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="198" parent="41" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="199" parent="41" name="PAGENUMBER">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="200" parent="41" name="IMONTH">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="201" parent="41" name="IFLIGHTNO">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="202" parent="41" name="CUR">
+      <Position>5</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="203" parent="42" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="204" parent="42" name="PAGENUMBER">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="205" parent="42" name="IMONTH">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="206" parent="42" name="CUR">
+      <Position>6</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="207" parent="42" name="INETCODE">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="208" parent="42" name="IFLIGHTNO">
+      <Position>5</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="209" parent="43" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="210" parent="43" name="PAGES">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="211" parent="44" name="ROWFORPAGE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="212" parent="44" name="PAGENUMBER">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="213" parent="44" name="IUSERNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="214" parent="44" name="CUR">
+      <Position>4</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
